@@ -89,7 +89,7 @@ export default function DashboardPreview() {
             ))}
           </div>
 
-          <div className="grid lg:grid-cols-3 gap-5">
+         <div className="grid lg:grid-cols-3 gap-5 items-stretch">
             {/* Active Calls */}
             <div className="lg:col-span-2 bg-surface-50/80 rounded-xl p-4 sm:p-5 border border-surface-100/80">
               <div className="flex items-center justify-between mb-4">
@@ -178,7 +178,7 @@ export default function DashboardPreview() {
               <span className="text-xs text-primary-600 font-medium cursor-pointer hover:underline">View All</span>
             </div>
             <div className="overflow-x-auto -mx-1">
-              <table className="w-full min-w-[480px]">
+              <table className="w-full">
                 <thead>
                   <tr className="border-b border-surface-200/80">
                     <th className="text-left text-[11px] font-medium text-surface-400 pb-3 pl-1">Client</th>

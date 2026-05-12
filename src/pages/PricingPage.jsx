@@ -9,7 +9,7 @@ import Button from '../components/ui/Button';
 const plans = [
   {
     name: 'Starter',
-    price: '4,999',
+    price: '31,249',
     description: 'Perfect for small businesses just getting started with AI.',
     popular: false,
     features: [
@@ -24,7 +24,7 @@ const plans = [
   },
   {
     name: 'Growth',
-    price: '9,999',
+    price: '39,999',
     description: 'For growing businesses that need advanced AI capabilities.',
     popular: true,
     features: [
