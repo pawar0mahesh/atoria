@@ -117,6 +117,8 @@ export default function PricingPage() {
             </motion.div>
           </div>
 
+
+
           {/* Pricing Cards */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 items-stretch w-full max-w-6xl mx-auto">
             {plans.map((plan, i) => (

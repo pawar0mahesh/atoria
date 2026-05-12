@@ -69,6 +69,7 @@ export default function CheckoutPage() {
       setFormData({ ...formData, screenshot: file });
     }
   };
+  console.log("checkout update fix");
 
 const handleSubmitVerification = async (e) => {
   e.preventDefault();
