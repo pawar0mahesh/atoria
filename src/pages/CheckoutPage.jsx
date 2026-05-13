@@ -15,7 +15,7 @@ import { PageTransition } from '../components/ui/Components';
 import Navbar from '../components/layout/Navbar';
 import Button from '../components/ui/Button';
 import toast from 'react-hot-toast';
-import qrCodeImage from '../assets/photoQr.jpeg'; // Adjust path based on your folder structure
+import qrCodeImage from '../assets/qrimage.jpeg'; // Adjust path based on your folder structure
 
 
 const planDetails = {
@@ -24,7 +24,7 @@ const planDetails = {
   enterprise: { name: 'Enterprise', price: 0, features: ['Unlimited AI Calls', 'Dedicated AI Flows', 'Multi-location Support', 'Advanced Analytics', 'API Integrations'] },
 };
 
-const UPI_ID = 'business@atrio';
+const UPI_ID = 'sandeepsingh275102@oksbi';
 
 export default function CheckoutPage() {
   const { plan } = useParams();
@@ -257,15 +257,15 @@ const handleSubmitVerification = async (e) => {
                           <div className="space-y-2 text-sm pl-15">
                             <div className="flex justify-between">
                               <span className="text-surface-500">Account Name:</span>
-                              <span className="font-mono text-surface-800">ATRIO Technologies Pvt Ltd</span>
+                              <span className="font-mono text-surface-800">Sandeep Singh</span>
                             </div>
                             <div className="flex justify-between">
                               <span className="text-surface-500">Account Number:</span>
-                              <span className="font-mono text-surface-800">50200012345678</span>
+                              <span className="font-mono text-surface-800">40010991670</span>
                             </div>
                             <div className="flex justify-between">
                               <span className="text-surface-500">IFSC:</span>
-                              <span className="font-mono text-surface-800">HDFC0001234</span>
+                              <span className="font-mono text-surface-800">SBIN0015207</span>
                             </div>
                           </div>
                           <button
